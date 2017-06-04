@@ -1,0 +1,14 @@
+{
+  "name": "eli-ui",
+  "version": "1.0.0",
+  "repository": "https://github.com/byulmaru/eli-ui.git",
+  "author": "robin <robin@makichan.moe>",
+  "license": "MIT",
+  "scripts": {
+    "build": "lessc --clean-css main.less eli.css"
+  },
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
